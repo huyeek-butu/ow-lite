@@ -1,0 +1,23 @@
+# 运行时数据（隔离环境，含 opencode 缓存 / 日志 / pid，体积大且本机相关）
+.data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 本地上传脚本用的临时物
+*.tmp
+
+# 内部工作存档：只留本机，不进版本库 / 不上传
+对话存档-*.md
+阶段总结-*.md
+.workbuddy/

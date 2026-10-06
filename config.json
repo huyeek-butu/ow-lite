@@ -1,0 +1,14 @@
+{
+  "proxy_host": "127.0.0.1",
+  "proxy_port": 41985,
+  "opencode_binary": "D:/OW-Bridge/runtime-standalone/pkg/package/bin/opencode.exe",
+  "data_dir": "D:/OW-Bridge/ow-lite/.data",
+  "opencode_port": 0,
+  "model_id_prefix": "ow-",
+  "model_name_prefix": "OC · ",
+  "model_allowlist": ["big-pickle", "fledge-alpha-free", "ling-3.1-flash-free", "longcat-2.5-preview-free", "nemotron-3.5-lightning-free", "space-bunny-free"],
+  "request_timeout": 300,
+  "max_workers": 8,
+  "delete_session_after": true,
+  "log_level": "INFO"
+}
